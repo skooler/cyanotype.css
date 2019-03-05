@@ -1,0 +1,20 @@
+{
+  "name": "cyanotype.css",
+  "description": "A convenient alternative to CSS resets",
+  "version": "0.1.0",
+  "author": "Skooler Co., Ltd.",
+  "bugs": {
+    "url": "https://github.com/skooler/cyanotype.css/issues"
+  },
+  "homepage": "https://github.com/skooler/cyanotype.css",
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "main": "cyanotype.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skooler/cyanotype.css.git"
+  },
+  "style": "cyanotype.css"
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cyanotype CSS tests</title>
+<link rel="stylesheet" href="cyanotype.css">
+<style>
+body {
+	color: #282828;
+	padding: 1rem;
+}
+
+a[href] {
+	color: dodgerblue;
+}
+
+#top {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 80%;
+}
+
+.example {
+	background: #F8F8F8;
+	border: 1px solid #D0D0D0;
+	margin-bottom: 1rem;
+	padding: 1rem 1.4rem;
+}
+</style>
+</head>
+<body>
+<section id="top">
+	<h1><a href="https://github.com/skooler/cyanotype.css">Cyanotype CSS</a> tests</h1>
+	<section>
+		<h2>Block element</h2>
+		<div class="example">
+			<article>article</article>
+			<aside>aside</aside>
+			<details>
+				<summary>summary</summary>
+				details
+			</details>
+			<figure>
+				figure
+				<figcaption>figcaption</figcaption>
+			</figure>
+			<footer>footer</footer>
+			<header>header</header>
+			<main>main</main>
+			<nav>nav</nav>
+			<section>section</section>
+		</div>
+	</section>
+	<section>
+		<h2>Typography</h2>
+		<div class="example">
+			<h1>H1 heading</h1>
+			<h2>H2 heading</h2>
+			<h3>H3 heading</h3>
+			<h4>H4 heading</h4>
+			<h5>H5 heading</h5>
+			<h6>H6 heading</h6>
+			<p>Paragraph</p>
+			<blockquote>Blockquote</blockquote>
+			<pre>Pre-formatted text</pre>
+			<address>Address</address>
+		</div>
+	</section>
+	<section>
+		<h2>Text-level semantics</h2>
+		<div class="example">
+			<p>
+				<a>Anchor</a>
+				<em>Emphasis</em>
+				<strong>Strong</strong>
+				<b>Bold</b>
+				<i>Italic</i>
+				<u>Underline</u>
+				<s>Strikethrough</s>
+				<small>Small</small>
+				<sub>Sub</sub>
+				<sup>Super</sup>
+				<abbr title="Abbreviation">Abbr</abbr>
+				<q>Quoted</q>
+				<cite>Cite</cite>
+				<code>Code</code>
+				<kbd>Keyboard</kbd>
+				<samp>Sample</samp>
+				<dfn>Definition</dfn>
+				<mark>Highlighted</mark>
+				<var>Variable</var>
+				<del>Deleted</del>
+				<ins>Inserted</ins>
+				<time datetime="2019-03-05T16:20+00:00">2019-03-05 16:20</time>
+			</p>
+		</div>
+	</section>
+	<section>
+		<h2>Horizontal rules</h2>
+		<div class="example">
+			<hr>
+		</div>
+	</section>
+	<section>
+		<h2>Lists</h2>
+		<div class="example">
+			<ul>
+				<li>Unordered list item 1</li>
+				<li>Unordered list item 2</li>
+			</ul>
+			<ol>
+				<li>Ordered list item 1</li>
+				<li>Ordered list item 2</li>
+			</ol>
+			<dl>
+				<dt>Description list item 1</dt>
+				<dd>Description list item 1.1</dd>
+			</dl>
+		</div>
+	</section>
+	<section>
+		<h2>Tables</h2>
+		<div class="example">
+			<table>
+				<caption>Caption</caption>
+				<thead>
+					<tr>
+						<th>Header 1</th>
+						<th>Header 2</th>
+						<th>Header 3</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Item 1</td>
+						<td>Item 2</td>
+						<td>Item 3</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>Footer 1</td>
+						<td>Footer 2</td>
+						<td>Footer 3</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</section>
+	<section>
+		<h2>Forms</h2>
+		<div class="example">
+			<form>
+				<fieldset>
+					<p>
+						<label for="nameField">Name</label>
+						<input type="text" placeholder="John Smith" id="nameField">
+					</p>
+					<p>
+						<label for="ageRangeField">Age range</label>
+						<select id="ageRangeField">
+							<option value="0-19">0-19</option>
+							<option value="20-29">20-29</option>
+							<option value="30-39">30-39</option>
+							<option value="40+">40+</option>
+						</select>
+					</p>
+					<p>
+						<label for="commentField">Comment</label>
+						<textarea placeholder="Hi CJ …" id="commentField"></textarea>
+					</p>
+					<p>
+						<input type="checkbox" id="confirmField">
+						<label for="confirmField">Send a copy to yourself</label>
+					</p>
+					<p>
+						<button type="submit">Submit</button>
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</section>
+	<nav>
+		<ul>
+			<li><a href="#top">Return to top</a></li>
+		</ul>
+	</nav>
+</section>
+</body>
+</html>
