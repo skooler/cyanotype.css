@@ -1,7 +1,7 @@
 {
   "name": "cyanotype.css",
   "description": "A convenient alternative to CSS resets",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Skooler Co., Ltd.",
   "bugs": {
     "url": "https://github.com/skooler/cyanotype.css/issues"
