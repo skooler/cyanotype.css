@@ -11,6 +11,9 @@
     "cssnano": "^4.1.10",
     "postcss-cli": "^6.1.2"
   },
+  "files": [
+    "cyanotype.min.css"
+  ],
   "homepage": "https://github.com/skooler/cyanotype.css",
   "keywords": [
     "css"
